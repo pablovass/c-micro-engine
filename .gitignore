@@ -1,0 +1,86 @@
+# #############################################################################
+# Archivo .gitignore para un proyecto C/C++ con CMake
+# #############################################################################
+
+# Ignorar comentarios y archivos de log
+*.log
+*.swo
+*.swp
+*~
+
+# #############################################################################
+# Directorios y artefactos de compilación
+# #############################################################################
+
+# Directorio de compilación principal, como se indica en el README.md
+/build/
+
+# Otros directorios de salida comunes
+/bin/
+/lib/
+/obj/
+
+# Archivos generados por el compilador
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.ilk
+*.pdb
+*.gch
+*.pch
+
+# #############################################################################
+# Archivos generados por CMake
+# #############################################################################
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeLists.txt.user
+compile_commands.json
+Makefile
+
+# #############################################################################
+# Archivos de configuración de IDEs y editores
+# #############################################################################
+
+# Visual Studio / MSVC
+.vs/
+*.sln.docstates
+*.suo
+*.user
+*.vcxproj.user
+*.vcxproj.filters
+
+# VS Code
+.vscode/
+# Excepciones: puedes descomentar estas líneas si quieres compartir
+# la configuración del editor con otros desarrolladores.
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+# !.vscode/c_cpp_properties.json
+
+# CLion / JetBrains
+.idea/
+
+# Code::Blocks
+*.cbp
+*.depend
+*.layout
+
+# #############################################################################
+# Otros
+# #############################################################################
+
+# Paquetes de Doxygen
+Doxyfile.bak
+
+# Archivos de empaquetado de macOS
+.DS_Store

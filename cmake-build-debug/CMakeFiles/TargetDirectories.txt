@@ -1,3 +1,3 @@
-D:/DEVELOP/C_PLUS_PLUS/mini-engine-sdl/cmake-build-debug/CMakeFiles/mini-engine-sdl.dir
-D:/DEVELOP/C_PLUS_PLUS/mini-engine-sdl/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/DEVELOP/C_PLUS_PLUS/mini-engine-sdl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/dev/c-micro-engine/cmake-build-debug/CMakeFiles/mini-engine-sdl.dir
+C:/dev/c-micro-engine/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/dev/c-micro-engine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
