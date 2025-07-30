@@ -7,9 +7,9 @@ class Texture;
 class Animation;
 class Controller;
 
-class Hero {
+class hero {
 public:
-    Hero(SDL_Renderer *renderer, Controller* controller);
+    hero(SDL_Renderer *renderer, Controller* controller);
     void init();
     void release();
     void update(double elapsedSeconds);
